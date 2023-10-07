@@ -24,7 +24,7 @@
       }
     }).join(h(10pt))
   [
-    
+
   ]
 }
 
@@ -66,10 +66,11 @@
   [\ ]
 }
 
-#let styled-link(dest, content) = emph(text(
-    fill: link_colour,
-    link(dest, content)
-  ))
+#let styled-link(dest, content) = {
+  icon("website")
+  link(dest, content)
+
+}
 
 #let alta(
   name: "",
@@ -100,7 +101,7 @@
   show heading.where(
     level: 3
   ): it => text(it.body)
-  
+
   show heading.where(
     level: 4
   ): it => text(
@@ -108,7 +109,15 @@
     it.body
   )
 
-  [= #name]
+
+
+
+  grid(
+    columns: (0.75fr, 0.25fr),
+    gutter: 0pt,
+    [= #name],
+    align(right)[#icon("location")Sydney, Australia],
+  )
 
   findMe(links)
 
@@ -119,4 +128,12 @@
     gutter: 15pt,
     content,
   )
+}
+
+#let todo(msg) = {
+  text(fill: red, weight: "bold", size: 12pt)[TODO #msg]
+}
+
+#let term(period, location) = {
+  text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
 }
