@@ -85,6 +85,8 @@
   set text(9.8pt, font: "IBM Plex Sans")
   set page(
     margin: (x: 54pt, y: 52pt),
+    numbering: "1",
+    number-align: right
   )
 
   show heading.where(
@@ -123,11 +125,7 @@
 
   tagline
 
-  columns(
-    2,
-    gutter: 15pt,
-    content,
-  )
+  content
 }
 
 #let todo(msg) = {
