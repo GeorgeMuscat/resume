@@ -49,7 +49,7 @@
     _Northside Burgers + Gelatiamo_\
     #term[Apr. 2021 --- Sep. 2022][Sydney, AUS]
 
-    - Took pride in providing quality customer experience, often recieving praise from new and regular customers.
+    - Took pride in providing quality customer experience, often receiving praise from new and regular customers.
     - Helped improve workflows and systems
 
     References available on request.
