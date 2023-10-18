@@ -7,7 +7,7 @@
   name: "George Muscat",
   links: (
     (name: "email", link: "mailto:georgemuscat@proton.me"),
-    (name: "website", link: "https://gmm.dev/", display: "gmm.dev"),
+    (name: "website", link: "https://muscat.sh/", display: "https://muscat.sh/"),
     (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
   ),
@@ -24,8 +24,7 @@
     I also spend a lot of time tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
 
     I would be an excellent addition to your work community, as I love helping, talking with and learning from others.
-    \
-    \
+
     == Experience
 
     === Casual Academic \
@@ -46,11 +45,15 @@
     #term[Feb. 2022 --- Oct. 2023][Sydney, AUS]
 
     - Provided discounted tutorials for struggling students for Chemistry, Physics, English and Mathematics.
+    === Cafe All Rounder \
+    _Northside Burgers + Gelatiamo_\
+    #term[Apr. 2021 --- Sep. 2022][Sydney, AUS]
+
+    - Took pride in providing quality customer experience, often recieving praise from new and regular customers.
+    - Helped improve workflows and systems
 
     References available on request.
 
-    \
-    \
     == Education
 
     === Undergraduate \
@@ -64,9 +67,7 @@
     - HD in Computer Networks & Applications
     - HD in O-O Design and Programming
 
-    \
-    \
-    Please see next page for projects, skills and interests!
+
     #pagebreak()
     == Projects
 
