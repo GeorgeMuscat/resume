@@ -6,7 +6,7 @@
 #alta(
   name: "George Muscat",
   links: (
-    (name: "email", link: "mailto:georgemuscat@proton.me"),
+    (name: "email", link: "mailto:george@muscat.sh"),
     (name: "website", link: "https://muscat.sh/", display: "https://muscat.sh/"),
     (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
@@ -14,14 +14,13 @@
   tagline: [Aspiring Incident Responder & Analyst],
   [
     \
-    \
     == WHOAMI
 
     Hello! I am currently in my third year studying undergraduate Computer Science (Security Engineering) at UNSW.
 
-    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I am attending as a Student Speaker on the 20th of October 2023.
+    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attend as a Student Speaker to discuss security education, an area I am extremely passionate about.
 
-    I also spend a lot of time tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
+    I also spend a lot of time tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Reading is another huge passion of mine. Currently, I am reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum) and I plan to start attempting practical implementations to solidify my understanding. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
 
     I would be an excellent addition to your work community, as I love helping, talking with and learning from others.
 
@@ -93,7 +92,7 @@
     We also wrote a report that included a risk and impact rating, steps to reproduce and remediation steps for each vulnerability that was discovered (#link("https://woop.xyz/COMP6443-Report-1.pdf")[Link 1], #link("https://woop.xyz/COMP6443-Report-2.pdf")[Link 2]).
 
     / DamCTF:
-    Paricpated with UNSW Security Society and our team (K17) achieved 2nd out of 451 teams. My role in this was primarily a leader with broad experience in most fields who could connect individuals with specialised knowledge together to solve the most complex challenges. #link("https://ctftime.org/event/1872")
+    Participated with UNSW Security Society and our team (K17) achieved 2nd out of 451 teams. My role in this was primarily a leader with broad experience in most fields who could connect individuals with specialised knowledge together to solve the most complex challenges. #link("https://ctftime.org/event/1872")
 
     / Rookie Code Rumble:
     Developed challenges for this CTF focused on introducing absolute beginners to the world of security. Made a box related to basic file system reconnaissance and a couple OSINT and puzzle challenges.
