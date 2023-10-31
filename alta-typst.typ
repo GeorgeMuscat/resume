@@ -79,7 +79,7 @@
   content,
 ) = {
   set document(
-    title: name + "'s CV",
+    title: name + "'s Resume",
     author: name,
   )
   set text(9.8pt, font: "IBM Plex Sans")

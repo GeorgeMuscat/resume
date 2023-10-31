@@ -14,15 +14,15 @@
   tagline: [Aspiring Incident Responder & Analyst],
   [
     \
+    \
     == WHOAMI
 
     Hello! I am currently in my third year studying undergraduate Computer Science (Security Engineering) at UNSW.
 
     While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attend as a Student Speaker to discuss security education, an area I am extremely passionate about.
 
-    I also spend a lot of time tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Reading is another huge passion of mine. Currently, I am reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum) and I plan to start attempting practical implementations to solidify my understanding. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
+    Much of my time is spent tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Reading is another huge passion of mine. Currently, I am reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum) and I plan to start attempting practical implementations to solidify my understanding. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
 
-    I would be an excellent addition to your work community, as I love helping, talking with and learning from others.
 
     == Experience
 
@@ -139,6 +139,5 @@
       - Monitoring forums and websites such as HackerNews, lobste.rs and medium, as well as individual blogs.
     - Strategy Games
     ]
-
   ],
 )
