@@ -11,6 +11,16 @@ jobs:
               uses: lvignoli/typst-action@main
               with:
                   source_file: resume.typ
+            - name: Upload PDF file
+              uses: actions/upload-artifact@v3
+              with:
+                  name: PDF
+                  path: resume.pdf
+            - name: Download
+              uses: actions/download-artifact@v4
+              with:
+                  name: PDF
+                  path: ./public
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
               with:
