@@ -19,7 +19,7 @@
 
     Hello! I am currently in my third year studying undergraduate Computer Science (Security Engineering) at UNSW.
 
-    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attend as a Student Speaker to discuss security education, an area I am extremely passionate about.
+    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attended as a Student Speaker to discuss security education, an area I am extremely passionate about.
 
     Much of my time is spent tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Reading is another huge passion of mine. Currently, I am reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum) and I plan to start attempting practical implementations to solidify my understanding. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
 
@@ -34,22 +34,20 @@
       - Manage 15 academic staff and coordinate over 250 undergraduate students per term.
       - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP and CGI.
       - Sole individual responsible for setting up and running exams in an in-house virtual exam environment.
+    - Tutor for COMP6443 (Web Application Security)
+      - Students to discover, report and remediate discovered vulnerabilities found in specially developed web applications. Reports focus on remediation and explaining business impacts of the discovered vulnerabilities.
+      - Vulnerabilities exploited and remediated include SQLi, XSS, LFI and SSRF.
     - Tutor for COMP1531 (SWE Fundamentals)
       - Teaching TypeScript, ExpressJS, CI/CD, Git Version Control and Agile Development.
       - Member of the exam development and implementation team.
       - Responsible for verification of content before release to the cohort of 1000+ students.
 
-    === High School Tutor \
-    _Private_\
-    #term[Feb. 2022 --- Oct. 2023][Sydney, AUS]
-
-    - Provided discounted tutorials for struggling students for Chemistry, Physics, English and Mathematics.
     === Cafe All Rounder \
     _Northside Burgers + Gelatiamo_\
     #term[Apr. 2021 --- Sep. 2022][Sydney, AUS]
 
     - Took pride in providing quality customer experience, often receiving praise from new and regular customers.
-    - Helped improve workflows and systems
+    - Helped improve workflows and systems.
 
     References available on request.
 
@@ -60,7 +58,6 @@
     #term[Feb. 2021 --- May 2024][Sydney, AUS]
 
     B.Sc. Computer Science Majoring in Cyber Security.\
-    Currently taking: Ext. Security Engineering & Security Assessment
     - HD in Web Application Security & Testing
     - HD in Computer Science Project (Capstone)
     - HD in Computer Networks & Applications
@@ -95,11 +92,11 @@
     Participated with UNSW Security Society and our team (K17) achieved 2nd out of 451 teams. My role in this was primarily a leader with broad experience in most fields who could connect individuals with specialised knowledge together to solve the most complex challenges. #link("https://ctftime.org/event/1872")
 
     / Rookie Code Rumble:
-    Developed challenges for this CTF focused on introducing absolute beginners to the world of security. Made a box related to basic file system reconnaissance and a couple OSINT and puzzle challenges.
+    Developed challenges for this CTF focused on introducing absolute beginners to the world of security. Made a challenge related to basic file system reconnaissance and a couple OSINT and puzzle challenges.
 
-    ==== WIP: MITM Attack on WPA-WPA2 Enterprise Networks
+    ==== Analysis of common misconfigurations of WPA/WPA2 Enterprise Networks
 
-    I'm currently undertaking a project, inspired by my realisation that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project is to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research.
+    hat a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project is to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research.
 
     ==== Beginner Project: Discord Bot
 
@@ -118,7 +115,7 @@
       #skill("Teaching", 5)
       #skill("Digital Forensics", 4)
       #skill("Java", 3)
-      #skill("Rust", 2)
+      #skill("Rust", 1)
       #colbreak()
       #skill("OSINT", 5)
       #skill("Teamwork", 5)
