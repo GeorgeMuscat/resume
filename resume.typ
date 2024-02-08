@@ -35,7 +35,7 @@
       - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP and CGI.
       - Sole individual responsible for setting up and running exams in an in-house virtual exam environment.
     - Tutor for COMP6443 (Web Application Security)
-      - Students to discover, report and remediate discovered vulnerabilities found in specially developed web applications. Reports focus on remediation and explaining business impacts of the discovered vulnerabilities.
+      - Students to discover, report and remediate discovered vulnerabilities found in specially developed web applications. Students are taught to write reports that focus on remediation and explaining business impacts of the discovered vulnerabilities without overwhelming non-technical readers.
       - Vulnerabilities exploited and remediated include SQLi, XSS, LFI and SSRF.
     - Tutor for COMP1531 (SWE Fundamentals)
       - Teaching TypeScript, ExpressJS, CI/CD, Git Version Control and Agile Development.
@@ -96,7 +96,7 @@
 
     ==== Analysis of common misconfigurations of WPA/WPA2 Enterprise Networks
 
-    hat a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project is to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research.
+    I have observed that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project was to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research.
 
     ==== Beginner Project: Discord Bot
 
@@ -128,7 +128,7 @@
     #columns(2)[
     - Reading
      - I've recently started reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum)
-    - Sports (Volleyball)
+    - Sports (Volleyball, Baseball, Skiing, Football)
     - CTFs
     - Gym
     - Security
