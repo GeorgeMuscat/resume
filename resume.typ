@@ -17,7 +17,7 @@
     \
     == WHOAMI
 
-    Hello! I am currently in my third year studying undergraduate Computer Science (Security Engineering) at UNSW.
+    Hello! I am currently in my final term studying undergraduate Computer Science (Security Engineering) at UNSW.
 
     While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attended as a Student Speaker to discuss security education, an area I am extremely passionate about.
 
