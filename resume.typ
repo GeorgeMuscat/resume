@@ -17,7 +17,7 @@
     \
     == WHOAMI
 
-    Hello! I am currently in my final term studying undergraduate Computer Science (Security Engineering) at UNSW.
+    Hello! I am a final year student studying undergraduate Computer Science (Security Engineering) at UNSW.
 
     While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attended as a Student Speaker to discuss security education, an area I am extremely passionate about.
 
@@ -67,11 +67,13 @@
     #pagebreak()
     == Projects
 
+    ==== FuzzyWuzzy - An In Memory Resetting Binary Fuzzer
+
+    This project was undertaken as a 4 person group for a university course. Our fuzzer was designed with modularity and speed as our main goals. Modularity allows a user to easily write new strategies for generating fuzzing inputs. Speed was achieved by creating a harness that hooks libc calls to provide coverage based mutations of inputs, as well as being able to reset the process being fuzzed without having to create new processes (reducing major overhead). This assignment received full marks. Source code can be found here #link("https://github.com/GeorgeMuscat/fuzzywuzzy")
+
     ==== Spark - A Platform For Student Society Discovery
 
-    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report #link("https://woop.xyz/spark-report.pdf")[(link)]. Received a 97/100 overall mark and highest participation/contribution mark of 20/20.
-
-    Source available on request.
+    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report #link("https://woop.xyz/spark-report.pdf")[(link)]. Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
 
     ==== CTFs
 
@@ -98,43 +100,35 @@
 
     I have observed that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project was to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research.
 
-    ==== Beginner Project: Discord Bot
-
-    This was the first solo project I made outside of university. One of the main inspirations for this project was my desire to learn how to self-host a physical server, setup/configure a network and learn JS. Making this bot taught me NodeJS, Bash, Docker, MongoDB and Ubuntu Server.
-
     == Skills
 
     #columns(3)[
       #skill("Security Testing", 5)
-      #skill("JS/TS", 5)
       #skill("Networking", 5)
+      #skill("JS/TS", 4)
       #skill("Git", 4)
-      #skill("C", 3)
       #colbreak()
       #skill("Python", 5)
       #skill("Teaching", 5)
       #skill("Digital Forensics", 4)
-      #skill("Java", 3)
-      #skill("Rust", 1)
+      #skill("C", 3)
       #colbreak()
       #skill("OSINT", 5)
       #skill("Teamwork", 5)
       #skill("Bash", 4)
       #skill("CI/CD", 3)
-      #skill("Typst", 1)
-
     ]
     == Interests
     #columns(2)[
     - Reading
      - I've recently started reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum)
     - Sports (Volleyball, Baseball, Skiing, Football)
+    - Teaching
+    - Strategy Games
     - CTFs
-    - Gym
     - Security
       - I frequently participate in discussions on the topic with my friends and peers.
       - Monitoring forums and websites such as HackerNews, lobste.rs and medium, as well as individual blogs.
-    - Strategy Games
     ]
   ],
 )
