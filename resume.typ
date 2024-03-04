@@ -77,7 +77,7 @@
 
     ==== Locked Shields 2024 - NATO CCDCOE Wargames
 
-    Lead an incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in the Australian team of  people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and clear and consistent communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
+    Lead an incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in the Australian blue team of 50 people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and clear and consistent communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
 
     ==== CTFs
 
