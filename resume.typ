@@ -61,7 +61,7 @@
     - HD in Web Application Security & Testing
     - HD in Computer Science Project (Capstone)
     - HD in Computer Networks & Applications
-    - HD in O-O Design and Programming
+    - HD in Object Oriented Design and Programming
 
 
     #pagebreak()
@@ -77,7 +77,7 @@
 
     ==== Locked Shields 2024 - NATO CCDCOE Wargames
 
-    Incident responder in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in a team of 50 people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments.
+    Incident responder in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in the Australian team of 50 people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and clear and consistent communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
 
     ==== CTFs
 
@@ -116,14 +116,12 @@
     == Interests
     #columns(2)[
     - Reading
-     - I've recently started reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum)
+     - Recently, Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum)
     - Sports (Volleyball, Baseball, Skiing, Football)
     - Teaching
     - Strategy Games
     - CTFs
-    - Security
-      - I frequently participate in discussions on the topic with my friends and peers.
-      - Monitoring forums and websites such as HackerNews, lobste.rs and medium, as well as individual blogs.
+    - Monitoring forums and websites such as HackerNews, lobste.rs and medium, as well as individual blogs.
     ]
   ],
 )
