@@ -19,7 +19,7 @@
 
     Hello! I am a final year student studying undergraduate Computer Science (Security Engineering) at UNSW.
 
-    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I  attended as a Student Speaker to discuss security education, an area I am extremely passionate about.
+    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I attended as  Speaker to discuss security education, an area I am extremely passionate about. I also enjoy blue teaming in attack & defence wargames such as the NATO run Locked Shields.
 
     Much of my time is spent tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Reading is another huge passion of mine. Currently, I am reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum) and I plan to start attempting practical implementations to solidify my understanding. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
 
@@ -75,20 +75,15 @@
 
     Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report #link("https://woop.xyz/spark-report.pdf")[(link)]. Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
 
+    ==== Locked Shields 2024 - NATO CCDCOE Wargames
+
+    Incident responder in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in a team of 50 people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments.
+
     ==== CTFs
 
     / COMP6443 Assessment CTF:
-    As part of my university Web Application Security & Testing course, I completed a term long CTF which covered content such as:
-    #pad(left: 30pt, right: 30pt)[#columns(2)[
-     - SQLi
-     - XSS
-     - SSRF
-    #colbreak()
-     - CSRF
-     - WAF Bypass
-     - LFI
-    ]]
-    We also wrote a report that included a risk and impact rating, steps to reproduce and remediation steps for each vulnerability that was discovered (#link("https://woop.xyz/COMP6443-Report-1.pdf")[Link 1], #link("https://woop.xyz/COMP6443-Report-2.pdf")[Link 2]).
+    As part of my university Web Application Security & Testing course, I completed a term long CTF which covered content such as SQLi, XSS, SSRF, CSRF, WAF Bypass and LFI.
+    We also wrote a report that assessed business impact, risk and impact, steps to reproduce and remediation steps for each vulnerability that was discovered (#link("https://woop.xyz/COMP6443-Report-1.pdf")[Link 1], #link("https://woop.xyz/COMP6443-Report-2.pdf")[Link 2]).
 
     / DamCTF:
     Participated with UNSW Security Society and our team (K17) achieved 2nd out of 451 teams. My role in this was primarily a leader with broad experience in most fields who could connect individuals with specialised knowledge together to solve the most complex challenges. #link("https://ctftime.org/event/1872")
@@ -113,7 +108,7 @@
       #skill("Digital Forensics", 4)
       #skill("C", 3)
       #colbreak()
-      #skill("OSINT", 5)
+      #skill("Incident Response", 5)
       #skill("Teamwork", 5)
       #skill("Bash", 4)
       #skill("CI/CD", 3)
