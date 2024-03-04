@@ -67,6 +67,10 @@
     #pagebreak()
     == Projects
 
+    ==== Locked Shields 2024 - NATO CCDCOE Wargames
+
+    Lead an incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in the Australian blue team of 50 people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and clear and consistent communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
+
     ==== FuzzyWuzzy - An In Memory Resetting Binary Fuzzer
 
     This project was undertaken as a 4 person group for a university course. Our fuzzer was designed with modularity and speed as our main goals. Modularity allows a user to easily write new strategies for generating fuzzing inputs. Speed was achieved by creating a harness that hooks libc calls to provide coverage based mutations of inputs, as well as being able to reset the process being fuzzed without having to create new processes (reducing major overhead). This assignment received full marks. Source code can be found here #link("https://github.com/GeorgeMuscat/fuzzywuzzy")
@@ -75,9 +79,6 @@
 
     Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report #link("https://woop.xyz/spark-report.pdf")[(link)]. Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
 
-    ==== Locked Shields 2024 - NATO CCDCOE Wargames
-
-    Lead an incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Worked in the Australian blue team of 50 people using SentinelOne and Velociraptor to manage and monitor over 100 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and clear and consistent communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
 
     ==== CTFs
 
