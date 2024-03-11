@@ -77,14 +77,14 @@
 
     ==== Spark - A Platform For Student Society Discovery
 
-    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report #link("https://woop.xyz/spark-report.pdf")[(link)]. Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
+    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report (available upon request). Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
 
 
     ==== CTFs
 
     / COMP6443 Assessment CTF:
     As part of my university Web Application Security & Testing course, I completed a term long CTF which covered content such as SQLi, XSS, SSRF, CSRF, WAF Bypass and LFI.
-    We also wrote a report that assessed business impact, risk and impact, steps to reproduce and remediation steps for each vulnerability that was discovered (#link("https://woop.xyz/COMP6443-Report-1.pdf")[Link 1], #link("https://woop.xyz/COMP6443-Report-2.pdf")[Link 2]).
+    We also wrote a report that assessed business impact, risk and impact, steps to reproduce and remediation steps for each vulnerability that was discovered (available upon request).
 
     / DamCTF:
     Participated with UNSW Security Society and our team (K17) achieved 2nd out of 451 teams. My role in this was primarily a leader with broad experience in most fields who could connect individuals with specialised knowledge together to solve the most complex challenges. #link("https://ctftime.org/event/1872")
@@ -117,12 +117,12 @@
     == Interests
     #columns(2)[
     - Reading
-     - Recently, Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum)
+     - Recently, Distributed Systems (Maarten van Steen & Andrew S. Tanenbaum)
     - Sports (Volleyball, Baseball, Skiing, Football)
     - Teaching
     - Strategy Games
     - CTFs
-    - Monitoring forums and websites such as HackerNews, lobste.rs and medium, as well as individual blogs.
+    - Monitoring forums and websites such as HackerNews
     ]
   ],
 )
