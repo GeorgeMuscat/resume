@@ -75,10 +75,9 @@
 
     This project was undertaken as a 4 person group for a university course. Our fuzzer was designed with modularity and speed as our main goals. Modularity allows a user to easily write new strategies for generating fuzzing inputs. Speed was achieved by creating a harness that hooks libc calls to provide coverage based mutations of inputs, as well as being able to reset the process being fuzzed without having to create new processes (reducing major overhead). This assignment received full marks. Source code can be found here #link("https://github.com/GeorgeMuscat/fuzzywuzzy")
 
-    ==== Spark - A Platform For Student Society Discovery
+    ==== sshnoop - A SSH hijacking tool
 
-    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report (available upon request). Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
-
+    sshnoop was created from a personal need when blue teaming. Written in Rust, it parses strace to find all read syscallsm intercepting all data read by an ssh session. The tool can also write data to the ssh session using IOCTL. I have used this tool when blue teaming to quickly hijack an attacker's ssh session, reading all the commands they were entering and being able to kill their session. Source code can be found here #link("https://github.com/GeorgeMuscat/sshnoop")
 
     ==== CTFs
 
@@ -94,26 +93,30 @@
 
     ==== Analysis of common misconfigurations of WPA/WPA2 Enterprise Networks
 
-    I have observed that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project was to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research.
+    I have observed that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project was to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research. I wrote a report about my findings, which I can provide upon request.
 
-    == Skills
+    ==== Spark - A Platform For Student Society Discovery
 
-    #columns(3)[
-      #skill("Incident Response", 5)
-      #skill("Networking", 5)
-      #skill("JS/TS", 4)
-      #skill("Git", 4)
-      #colbreak()
-      #skill("Leadership", 5)
-      #skill("Teaching", 5)
-      #skill("Digital Forensics", 4)
-      #skill("C", 3)
-      #colbreak()
-      #skill("Python", 5)
-      #skill("Teamwork", 5)
-      #skill("Bash", 4)
-      #skill("CI/CD", 3)
-    ]
+    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report (available upon request). Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
+
+    // == Skills
+
+    // #columns(3)[
+    //   #skill("Incident Response", 5)
+    //   #skill("Networking", 5)
+    //   #skill("JS/TS", 4)
+    //   #skill("Git", 4)
+    //   #colbreak()
+    //   #skill("Leadership", 5)
+    //   #skill("Teaching", 5)
+    //   #skill("Digital Forensics", 4)
+    //   #skill("C", 3)
+    //   #colbreak()
+    //   #skill("Python", 5)
+    //   #skill("Teamwork", 5)
+    //   #skill("Bash", 4)
+    //   #skill("CI/CD", 3)
+    // ]
     == Interests
     #columns(2)[
     - Reading
@@ -121,8 +124,10 @@
     - Sports (Volleyball, Baseball, Skiing, Football)
     - Teaching
     - Strategy Games
+    - Meeting new people
     - CTFs
-    - Monitoring forums and websites such as HackerNews
+    - Reading security blog posts
+    - Attending security events such as SecTalks and BSides
     ]
   ],
 )
