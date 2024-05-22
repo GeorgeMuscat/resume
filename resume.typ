@@ -30,12 +30,6 @@
     - Tutor for COMP1531 (SWE Fundamentals)
       - Teaching TypeScript, ExpressJS, CI/CD, Git Version Control and Agile Development.
 
-    // === Cafe All Rounder \
-    // _Northside Burgers + Gelatiamo_\
-    // #term[Apr. 2021 --- Sep. 2022][Sydney, AUS]
-
-    // References available on request.
-
     == Education
 
     === Undergraduate \
