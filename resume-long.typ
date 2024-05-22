@@ -40,7 +40,6 @@
     - Tutor for COMP1531 (SWE Fundamentals)
       - Teaching TypeScript, ExpressJS, CI/CD, Git Version Control and Agile Development.
       - Member of the exam development and implementation team.
-      - Responsible for verification of content before release to the cohort of 1000+ students.
 
     === Cafe All Rounder \
     _Northside Burgers + Gelatiamo_\
@@ -57,11 +56,12 @@
     _University of New South Wales_\
     #term[Feb. 2021 --- May 2024][Sydney, AUS]
 
-    B.Sc. Computer Science Majoring in Cyber Security.\
+    B.Sc. Computer Science (Security Engineering) - Distinction\
     - HD in Web Application Security & Testing
     - HD in Computer Science Project (Capstone)
     - HD in Computer Networks & Applications
     - HD in Object Oriented Design and Programming
+    - HD in Solving Modern Programming Problems with Rust
 
 
     #pagebreak()
