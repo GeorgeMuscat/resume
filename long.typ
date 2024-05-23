@@ -60,7 +60,7 @@
     - HD in Web Application Security & Testing
     - HD in Computer Science Project (Capstone)
     - HD in Computer Networks & Applications
-    - HD in Object Oriented Design and Programming
+    - HD in Object Oriented Design and Programming in Java
     - HD in Solving Modern Programming Problems with Rust
 
 
@@ -99,24 +99,6 @@
 
     Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report (available upon request). Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
 
-    // == Skills
-
-    // #columns(3)[
-    //   #skill("Incident Response", 5)
-    //   #skill("Networking", 5)
-    //   #skill("JS/TS", 4)
-    //   #skill("Git", 4)
-    //   #colbreak()
-    //   #skill("Leadership", 5)
-    //   #skill("Teaching", 5)
-    //   #skill("Digital Forensics", 4)
-    //   #skill("C", 3)
-    //   #colbreak()
-    //   #skill("Python", 5)
-    //   #skill("Teamwork", 5)
-    //   #skill("Bash", 4)
-    //   #skill("CI/CD", 3)
-    // ]
     == Interests
     #columns(2)[
     - Reading
