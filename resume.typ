@@ -2,7 +2,6 @@
 
 #show link: underline
 
-
 #alta(
   name: "George Muscat",
   links: (
@@ -11,6 +10,7 @@
     (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
   ),
+  numbers: none,
   tagline: [Aspiring Security Engineer & Incident Responder],
   [
 
@@ -60,3 +60,4 @@
 
   ],
 )
+

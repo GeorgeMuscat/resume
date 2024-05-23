@@ -77,6 +77,7 @@
   links: (),
   tagline: [],
   content,
+  numbers: "1"
 ) = {
   set document(
     title: name + "'s Resume",
@@ -85,7 +86,7 @@
   set text(9.8pt, font: "IBM Plex Sans")
   set page(
     margin: (x: 54pt, y: 52pt),
-    numbering: "1",
+    numbering: numbers,
     number-align: right
   )
 
