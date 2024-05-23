@@ -56,7 +56,7 @@
 
     I have observed that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project was to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research. I wrote a report about my findings, which I can provide upon request.
 
-    _A more detailed resume can be found at #link("https://muscat.sh/resume/resume-long.pdf")_
+    _A more detailed resume can be found at #link("https://muscat.sh/resume/long.pdf")_
 
   ],
 )
