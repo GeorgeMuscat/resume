@@ -20,7 +20,7 @@
     _UNSW_\
     #term[Sep. 2022 --- Ongoing][Sydney, AUS]
 
-    - Course Administrator for ENGG1811 (Computing for Engineers):
+    - Course Administrator for ENGG1811 (Computing for Engineers)
       - Manage 15 academic staff and coordinate over 350 undergraduate students per term.
       - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP and CGI.
       - Sole individual responsible for setting up and running exams in an in-house virtual exam environment.
