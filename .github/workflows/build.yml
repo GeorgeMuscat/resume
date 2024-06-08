@@ -16,6 +16,7 @@ jobs:
                   source_file: |
                       resume.typ
                       long.typ
+                      swe.typ
             - name: Upload PDF file
               uses: actions/upload-artifact@v4
               with:
@@ -23,6 +24,7 @@ jobs:
                   path: |
                       resume.pdf
                       long.pdf
+                      swe.pdf
             - name: Download
               uses: actions/download-artifact@v4
               with:
