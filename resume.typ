@@ -11,7 +11,7 @@
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
   ),
   numbers: none,
-  tagline: [Aspiring Security Engineer & Incident Responder],
+  tagline: [],
   [
 
     == Experience
