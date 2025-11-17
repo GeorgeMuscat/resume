@@ -6,58 +6,52 @@
   name: "George Muscat",
   links: (
     (name: "email", link: "mailto:george@muscat.sh"),
-    (name: "website", link: "https://muscat.sh/", display: "https://muscat.sh/"),
-    (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
+    (name: "mobile", link: "+61 422 260 926", display: "+61 422 260 926"),
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
+    (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
   ),
   numbers: none,
   tagline: [],
-  [
-
-    == Experience
-
-    === Casual Academic \
-    _UNSW_\
-    #term[Sep. 2022 --- Ongoing][Sydney, AUS]
-
-    - Course Administrator for ENGG1811 (Computing for Engineers)
-      - Manage 15 academic staff and coordinate over 350 undergraduate students per term.
-      - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP and CGI.
-      - Sole individual responsible for setting up and running exams in an in-house virtual exam environment.
-    - Tutor for COMP6443 (Web Application Security)
-      - Teach students to discover, report and remediate discovered vulnerabilities. Students are taught to write reports that focus on remediation and explaining business impacts of the discovered vulnerabilities.
-      - Vulnerabilities exploited and remediated include SQLi, XSS, LFI and SSRF.
-    - Tutor for COMP1531 (SWE Fundamentals)
-      - Teaching TypeScript, ExpressJS, CI/CD, Git Version Control and Agile Development.
-
-    == Education
+  [    == Education
 
     === Undergraduate \
     _University of New South Wales_\
-    #term[Feb. 2021 --- May 2024][Sydney, AUS]
-
+    #term[2021 --- 2024][Sydney, AUS]\
     B.Sc. Computer Science (Security Engineering) - Distinction
 
+    == Experience
+
+    === Software Security Engineer \
+    _Asontu_\
+    #term[July 2024. --- Current][Sydney, AUS]\
+    Software Security Engineering Consultant
+    - Pitched, prototyped, designed and developed automated testing and deployment infrastructure using Golang, Python, Kubernetes and Git. Introducing automation and reliability, *eliminating a manual and mistake prone process*.
+    - Participated in *major incident response as an on-call engineer*. Lead the technical investigation, while maintaining regular and clear communication to non-technical leadership.
+    - Designed and built a collection of *MCP servers* and an accompanying *FastAPI* server, providing tooling that enabled *fine-tuned AI model* integration with internal customer systems.
+    - Entrusted with sole responsibility to roll out a ZTNA solution across a large organisation, ensuring *zero downtime for end users* through phased deployment and proactive testing. Additionally, *built automations in Python* to detect, manage and respond to outages, reducing overall response time and increasing reliability.
+    // - Managed client relationships, enabling large organisations to complete new initiatives, while introducing security and reliability considerations to new design processes without added friction.
+    - *Mentored a junior engineer*, providing guidance on technical skills, and best practices in security engineering.
+    - Built vulnerability reporting tools, combining and cleaning multiple data sources using MySQL, Pandas and PowerBI. Enabled leadership to *derive clear and actionable insights* regarding the organisations vulnerability management.
+    - Received a *promotion from graduate level after 5 months* due to excellent performance in a client facing role and demonstrating advanced technical knowledge.
+    - *Led graduate program interviews*, designing technical assessments and evaluating candidates for both technical and cultural fit.
+
+    === Casual Academic \
+    _UNSW_\
+    #term[Sep. 2022 --- Dec. 2024][Sydney, AUS]\
+    Course Administrator for ENGG1811 (Computing for Engineers)
+      - Managed 15 academic staff and coordinated over 350 undergraduate students per term.
+      - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP, Docker and CGI.
+    Tutor for COMP6443 (Web Application Security) & COMP1531 (SWE Fundamentals)
+      - Taught classes of \~25 students in SWE Fundamentals and Web Application Security. This includes communicating technical concepts to low level technical individuals, as well as providing feedback and debugging help.\
     == Projects
+    ==== Self-hosted, bare metal Kubernetes cluster\
+    Operate 3 node kubernetes cluster on Talos, hosting a variety of workloads. Experimented with various highly available system designs and components, including MapReduce and Raft implementations.
 
-    ==== FuzzyWuzzy - An in memory resetting binary fuzzer
+    ==== sshnoop - A SSH hijacking tool\
+    Written in Rust, sshnoop uses ptrace to intercept all data transmitted to an ssh session. Sshnoop also writes data to the ssh session using IOCTL. Source code can be found here: #link("https://github.com/GeorgeMuscat/sshnoop")
 
-   Designed with modularity and speed as the main design goals. Speed was achieved by creating a harness that hooks libc calls to provide coverage based mutations of inputs, as well as being able to reset the process being fuzzed without having to create new processes (reducing major overhead). This assignment received full marks. Source code can be found here #link("https://github.com/GeorgeMuscat/fuzzywuzzy")
-
-    ==== sshnoop - A SSH hijacking tool
-
-    Written in Rust, sshnoop parses strace to find all read syscalls intercepting all data read by an ssh session. The tool can also write data to the ssh session using IOCTL. I have used this tool when blue teaming to quickly hijack an attacker's ssh session, reading all the commands they were entering and being able to kill their session. Source code can be found here #link("https://github.com/GeorgeMuscat/sshnoop")
-
-    ==== Spark - A platform for student society discovery
-
-    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report (available upon request). Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
-
-    ==== Locked Shields 2024 - NATO CCDCOE Wargames
-
-    Lead the Australian incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Used the EDR tool SentinelOne and wrote custom bash scripts to manage and monitor over 150 endpoints running various versions of Linux and Windows. Wrote queries to detect MITRE ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and maintain clear communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
-
-    _A more detailed resume can be found at #link("https://muscat.sh/resume/long.pdf")_
+    ==== Locked Shields 2024 & 2025 - NATO CCDCOE Wargames\
+    Lead the Australian incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Responsibilities included liaising with non-technical members and maintaining clear communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
 
   ],
 )
-
