@@ -6,9 +6,9 @@
   name: "George Muscat",
   links: (
     (name: "email", link: "mailto:george@muscat.sh"),
-    (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
+    (name: "mobile", link: "+61 422 260 926", display: "+61 422 260 926"),
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
-    (name: "website", link: "https://muscat.sh/", display: "https://muscat.sh/"),
+    (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
   ),
   numbers: none,
   tagline: [],
@@ -17,26 +17,24 @@
     === Undergraduate \
     _University of New South Wales_\
     #term[2021 --- 2024][Sydney, AUS]\
-    B.Sc. Computer Science (Security Engineering) - Distinction\
+    B.Sc. Computer Science (Security Engineering) - Distinction
+
     == Experience
 
-    === Security Engineering \
+    === Security Engineer \
     _Asontu_\
-    #term[Dec 2024. --- Current][Sydney, AUS]\
+    #term[July 2024. --- Current][Sydney, AUS]\
     Security Engineering Consultant
-    - Prototyped, designed and developed automated testing and deployment infrastructure using Golang, Python, Kubernetes and Git. Introducing automation and reliability, *eliminating a manual and mistake prone process*.
+    - Pitched, prototyped, designed and developed automated testing and deployment infrastructure using Golang, Python, Kubernetes and Git. Introducing automation and reliability, *eliminating a manual and mistake prone process*.
+    - Led security architecture reviews for cloud-native applications, providing tailored feedback for clients.
     - Participated in *major incident response as an on-call engineer*. Lead the technical investigation, while maintaining regular and clear communication to non-technical leadership.
-    - Entrusted with sole responsibility to roll out a ZTNA solution across a large organisation, ensuring *zero downtime for end users* through phased deployment and proactive testing.
+    - Designed and built a collection of *MCP servers* and an accompanying *FastAPI* server, providing tooling that enabled *fine-tuned AI model* integration with internal customer systems.
+    - Entrusted with sole responsibility to roll out a ZTNA solution across a large organisation, ensuring *zero downtime for end users* through phased deployment and proactive testing. Additionally, *built automations in Python* to detect, manage and respond to outages, reducing overall response time and increasing reliability.
     // - Managed client relationships, enabling large organisations to complete new initiatives, while introducing security and reliability considerations to new design processes without added friction.
-    - *Regularly mentor a junior engineer*, providing guidance on technical skills, and best practices in security engineering.
-    - *Led graduate program interviews*, designing technical assessments and evaluating candidates for both technical and cultural fit.
-
-    === Graduate Security Engineer \
-    _Asontu_ \
-    #term[July 2024. --- Dec. 2024][Sydney, AUS]
-    - Deployed, maintained and used EDR and logging solutions in both Windows and Linux environments.
-    - Designed, reviewed and implemented secure networks. Diagnosed and fixed issues throughout the networking stack.
+    - *Mentored a junior engineer*, providing guidance on technical skills, and best practices in security engineering.
     - Built vulnerability reporting tools, combining and cleaning multiple data sources using MySQL, Pandas and PowerBI. Enabled leadership to *derive clear and actionable insights* regarding the organisations vulnerability management.
+    - Received a *promotion from graduate level after 5 months* due to excellent performance in a client facing role and demonstrating advanced technical knowledge.
+    - *Led graduate program interviews*, designing technical assessments and evaluating candidates for both technical and cultural fit.
 
     === Casual Academic \
     _UNSW_\
@@ -44,12 +42,11 @@
     Course Administrator for ENGG1811 (Computing for Engineers)
       - Managed 15 academic staff and coordinated over 350 undergraduate students per term.
       - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP, Docker and CGI.
-      - Sole individual responsible for setting up and running exams in an in-house virtual exam environment.
     Tutor for COMP6443 (Web Application Security) & COMP1531 (SWE Fundamentals)
       - Taught classes of \~25 students in SWE Fundamentals and Web Application Security. This includes communicating technical concepts to low level technical individuals, as well as providing feedback and debugging help.\
     == Projects
-    ==== Self-hosted, bare metal kubernetes cluster\
-    I run a 3 node kubernetes cluster, hosting a variety of workloads. I have used this to experiment with various highly available system designs and components, including MapReduce and Raft implementations.
+    ==== Self-hosted, bare metal Kubernetes cluster\
+    Operate 3 node kubernetes cluster on Talos, hosting a variety of workloads. Experimented with various highly available system designs and components, including MapReduce and Raft implementations.
 
     ==== sshnoop - A SSH hijacking tool\
     Written in Rust, sshnoop uses ptrace to intercept all data transmitted to an ssh session. Sshnoop also writes data to the ssh session using IOCTL. Source code can be found here: #link("https://github.com/GeorgeMuscat/sshnoop")
@@ -59,4 +56,3 @@
 
   ],
 )
-
