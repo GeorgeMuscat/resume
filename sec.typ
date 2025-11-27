@@ -26,13 +26,13 @@
     #term[July 2024. --- Current][Sydney, AUS]\
     Security Engineering Consultant
     - Pitched, prototyped, designed and developed automated testing and deployment infrastructure using Golang, Python, Kubernetes and Git. Introducing automation and reliability, *eliminating a manual and mistake prone process*.
-    - Led security architecture reviews for cloud-native applications, providing tailored feedback for clients.
+    - Led *security architecture reviews for cloud-native applications*, providing tailored feedback for clients.
+    - Performed multiple *penetration tests on web-applications*, providing detailed technical findings and clear remediation guidance.
     - Participated in *major incident response as an on-call engineer*. Lead the technical investigation, while maintaining regular and clear communication to non-technical leadership.
-    - Designed and built a collection of *MCP servers* and an accompanying *FastAPI* server, providing tooling that enabled *fine-tuned AI model* integration with internal customer systems.
-    - Entrusted with sole responsibility to roll out a ZTNA solution across a large organisation, ensuring *zero downtime for end users* through phased deployment and proactive testing. Additionally, *built automations in Python* to detect, manage and respond to outages, reducing overall response time and increasing reliability.
+    - Rolled out a ZTNA solution across a large organisation, ensuring *zero downtime for end users* through phased deployment and proactive testing. Additionally, *built automations in Python* to detect, manage and respond to outages, reducing overall response time and increasing reliability.
     // - Managed client relationships, enabling large organisations to complete new initiatives, while introducing security and reliability considerations to new design processes without added friction.
+    - Designed and built a collection of *MCP servers* and an accompanying *FastAPI* server, providing tooling that enabled *fine-tuned AI model* integration with internal customer systems.
     - *Mentored a junior engineer*, providing guidance on technical skills, and best practices in security engineering.
-    - Built vulnerability reporting tools, combining and cleaning multiple data sources using MySQL, Pandas and PowerBI. Enabled leadership to *derive clear and actionable insights* regarding the organisations vulnerability management.
     - Received a *promotion from graduate level after 5 months* due to excellent performance in a client facing role and demonstrating advanced technical knowledge.
     - *Led graduate program interviews*, designing technical assessments and evaluating candidates for both technical and cultural fit.
 
