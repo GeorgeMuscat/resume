@@ -11,105 +11,80 @@
     (name: "github", link: "https://github.com/georgemuscat", display: "@georgemuscat"),
     (name: "linkedin", link: "https://linkedin.com/in/george-muscat", display: "George Muscat"),
   ),
-  tagline: [Aspiring Security Engineer & Incident Responder],
+  tagline: [],
   [
-    \
-    \
-    == WHOAMI
+    == Professional Experience
 
-    Hello! I am recent graduate from UNSW with a Bachelors of Computer Science (Security Engineering).
-
-    While studying, I have spent the past year working at UNSW as a Casual Academic, where I get the most enjoyment teaching new CS students how awesome computers can be. In my free time I develop and participate in CTFs as a committee member of the UNSW Security Society. I enjoy attending conferences such as BSides and secEduCon, where I attended as a Speaker to discuss security education, an area I am extremely passionate about. I also enjoy blue teaming in attack & defence wargames such as the NATO run Locked Shields.
-
-    Much of my time is spent tinkering with technology, looking for ways I can improve the efficiency, usability and security of the tech. Reading is another huge passion of mine. Currently, I am reading "Distributed Systems" (Maarten van Steen & Andrew S. Tanenbaum) and I plan to start attempting practical implementations to solidify my understanding. Outside of tech, I spend the majority of my time playing team sports such as volleyball and football, in which I also volunteer to referee.
-
-
-    == Experience
+    === Security Engineer \
+    _Asontu_\
+    #term[July 2024 --- Current][Sydney, AUS]\
+    Senior Security Engineering Consultant
+    - Develop and maintain custom security tooling and automation platforms
+      - Built automated testing and deployment infrastructure using Golang, Python, Kubernetes and Git, eliminating manual processes and reducing deployment errors
+      - Migrated multiple large Cloudflare tenants to be managed by Terraform, with Open Policy Agent programatically enforcing secure controls and standards
+      - Engineered NXLog-based log forwarding infrastructure with custom configuration management pipeline, allowing for quick updates and rollbacks across the server fleet
+    - Provide daily security operations and engineering services for a multinational restaurant chain, including triaging security alerts, writing custom detection rules, and maintaining critical security infrastructure across Linux and Windows environments
+      - Utilise EDR solutions (SentinelOne, CrowdStrike) and SIEM platforms (Google SecOps, Splunk, Microsoft Sentinel) for threat detection and incident response
+      - Design and implement automated alert triage workflows, improving detection efficiency and reducing manual effort
+    - Lead major incident response activities as the primary technical engineer during both security and reliability incidents
+      - Conduct comprehensive technical investigations using forensic tools and threat intelligence platforms
+      - Foster collaboration between internal stakeholders, incident investigation service providers, and international business units
+      - Author detailed incident reports and recommendations for C-suite leadership, contributing to strategic security decision-making
+    - Design and deploy enterprise security architecture solutions for large-scale organisations
+      - Successfully rolled out ZTNA (Zscaler) solution across a multinational retail chain, ensuring minimal downtime for end users through phased deployment methodology
+      - Architect and maintain identity and access management solutions using CyberArk and Varonis for privileged account management and monitoring
+    - Regularly conduct in-depth security architecture reviews and penetration tests on both new and existing systems for multiple clients
+      - Perform comprehensive security assessments, including network, application, and infrastructure penetration testing, to identify vulnerabilities and recommend mitigations
+      - Provide detailed reports and presentations to technical teams and executive leadership, outlining findings and actionable recommendations
+      - Focus on secure design principles and best practices to enhance overall security posture of client systems
 
     === Casual Academic \
     _UNSW_\
-    #term[Sep. 2022 --- Ongoing][Sydney, AUS]
+    #term[Sep. 2022 --- May. 2026][Sydney, AUS]\
+    Guest Lecturer for COMP6843 (Extended Web Application Security)
+    - Wrote and presented a lecture on HTTP request smuggling. This included a technical demonstration written using Rust and eBPF to enhance student learning
 
-    - Course Administrator for ENGG1811 (Computing for Engineers):
-      - Manage 15 academic staff and coordinate over 250 undergraduate students per term.
-      - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP and CGI.
-      - Sole individual responsible for setting up and running exams in an in-house virtual exam environment.
-    - Tutor for COMP6443 (Web Application Security)
-      - Students to discover, report and remediate discovered vulnerabilities found in specially developed web applications. Students are taught to write reports that focus on remediation and explaining business impacts of the discovered vulnerabilities without overwhelming non-technical readers.
-      - Vulnerabilities exploited and remediated include SQLi, XSS, LFI and SSRF.
-    - Tutor for COMP1531 (SWE Fundamentals)
-      - Teaching TypeScript, ExpressJS, CI/CD, Git Version Control and Agile Development.
-      - Member of the exam development and implementation team.
+    Course Administrator for ENGG1811 (Computing for Engineers)
+    - Managed 15 academic staff and coordinated over 350 undergraduate students per term.
+    - Responsible for setting up and maintaining course infrastructure, with technologies such as Linux (Debian Server), Bash, Python, PHP, Docker and CGI.
+    Tutor for COMP6443 (Web Application Security) & COMP1531 (SWE Fundamentals)
+    - Taught over 15 classes of \~25 students in SWE Fundamentals and Web Application Security. This included communicating technical concepts to individuals with varying technical backgrounds, as well as providing feedback and debugging help.\
 
-    === Cafe All Rounder \
-    _Northside Burgers + Gelatiamo_\
-    #term[Apr. 2021 --- Sep. 2022][Sydney, AUS]
-
-    - Took pride in providing quality customer experience, often receiving praise from new and regular customers.
-    - Helped improve workflows and systems.
-
-    References available on request.
+    #pagebreak()
 
     == Education
 
-    === Undergraduate \
+    === Bachelor of Science in Computer Science (Security Engineering) \
     _University of New South Wales_\
-    #term[Feb. 2021 --- May 2024][Sydney, AUS]
+    #term[2021 --- 2024][]\
+    Distinction
 
-    B.Sc. Computer Science (Security Engineering) - Distinction\
-    - HD in Web Application Security & Testing
-    - HD in Computer Science Project (Capstone)
-    - HD in Computer Networks & Applications
-    - HD in Object Oriented Design and Programming in Java
-    - HD in Solving Modern Programming Problems with Rust
+    == Skills
 
+    *Programming languages:* Python, Go, Rust, Bash, C, JS/TS, SQL\
+    *Technologies:* Kubernetes, Linux, WAF, Containerisation, Windows, Santa, JAMF, EDR, ZTNA, Azure, GCP\
+    *Areas of interest:* Corporate security, Incident response, AppSec and secure SDLC implementation, Security automation and orchestration, Site security and reliability engineering, Reverse engineering and vulnerability research
 
-    #pagebreak()
     == Projects
 
-    ==== Locked Shields 2024 - NATO CCDCOE Wargames
+    === Locked Shields 2024 & 2025 - NATO CCDCOE Wargames\
+    #link("https://ccdcoe.org/exercises/locked-shields/") \
+    Led the Australian incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Used the EDR tool SentinelOne and wrote custom bash scripts to manage and monitor over 150 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and maintaining clear communication in a fast and stressful environment.
 
-    Lead the Australian incident response team in a simulated cyberwarfare exercise organised by the NATO CCDCOE. Used the EDR tool SentinelOne and wrote custom bash scripts to manage and monitor over 150 endpoints running various versions of Linux and Windows. Wrote detection S1QL queries to detect ATT&CK behavioural indicators, detecting and responding to incidents in various endpoint environments. Other responsibilities included liaising with non-technical members and maintain clear communication in a fast and stressful environment. #link("https://ccdcoe.org/exercises/locked-shields/")
+    === go-secops - Log forwarding software written in Go\
+    In order to fill tooling gaps at a client, I designed and wrote `go-secops`. The deployment requires sending a high volume of critical security logs with reliability, consistency, and performance. The program receives logs on UNIX domain sockets, batches them as required by the Google Secops ingestion API. `go-secops` features exponential request backoff, application logging (incl. rotation) and concurrent log reception, batching and transmission. Source code is not available due to client confidentiality.
 
-    ==== FuzzyWuzzy - An in memory resetting binary fuzzer
+    === logga - QUIC log forwarder\
+    #link("https://github.com/GeorgeMuscat/logga")\
+    Written in asynchronous Rust, `logga` is an experimental log forwarder designed to collect, forward and store logs between clients. The main network protocol used is QUIC, which provides low latency and reliable communication compared to the unreliable but fast syslog over UDP or the reliable but slow syslog over TCP. QUIC additionally benefits from built in encryption and authentication, making it ideal for secure log forwarding. I have future plans to build on the project to use protobufs for log collection, normalisation and transmission on top of QUIC.
 
-    This project was undertaken as a 4 person group for a university course. Our fuzzer was designed with modularity and speed as our main goals. Modularity allows a user to easily write new strategies for generating fuzzing inputs. Speed was achieved by creating a harness that hooks libc calls to provide coverage based mutations of inputs, as well as being able to reset the process being fuzzed without having to create new processes (reducing major overhead). This assignment received full marks. Source code can be found here #link("https://github.com/GeorgeMuscat/fuzzywuzzy")
 
-    ==== sshnoop - A SSH hijacking tool
+    === sshnoop - A SSH hijacking tool\
+    #link("https://github.com/GeorgeMuscat/sshnoop")\
+    `sshnoop` was created from a personal need when blue teaming. Written in Rust, it parses strace to find all read syscalls intercepting all data read by an ssh session. The tool can also write data to the ssh session using IOCTL.  I started experimenting with a broader rewrite that would target all TTYs, not just SSH sessions using eBPF, however this is still in early development.
 
-    sshnoop was created from a personal need when blue teaming. Written in Rust, it parses strace to find all read syscalls intercepting all data read by an ssh session. The tool can also write data to the ssh session using IOCTL. I have used this tool when blue teaming to quickly hijack an attacker's ssh session, reading all the commands they were entering and being able to kill their session. Source code can be found here #link("https://github.com/GeorgeMuscat/sshnoop")
-
-    ==== CTFs
-
-    / COMP6443 Assessment CTF:
-    As part of my university Web Application Security & Testing course, I completed a term long CTF which covered content such as SQLi, XSS, SSRF, CSRF, WAF Bypass and LFI.
-    We also wrote a report that assessed business impact, risk and impact, steps to reproduce and remediation steps for each vulnerability that was discovered (available upon request).
-
-    / DamCTF:
-    Participated with UNSW Security Society and our team (K17) achieved 2nd out of 451 teams. My role in this was primarily a leader with broad experience in most fields who could connect individuals with specialised knowledge together to solve the most complex challenges. #link("https://ctftime.org/event/1872")
-
-    / Rookie Code Rumble:
-    Developed challenges for this CTF focused on introducing absolute beginners to the world of security. Made a challenge related to basic file system reconnaissance and a couple OSINT and puzzle challenges.
-
-    ==== Analysis of common misconfigurations of WPA/WPA2 enterprise networks
-
-    I have observed that a lot of enterprise networks are not correctly issuing and requiring certificates to connect to access points. The risk of this is exacerbated by most organisations requiring users to use the same username and password to access the network and other infrastructure. The aim of this project was to complete a proof concept and a report detailing remediation, further recommendations, risks related to current implementation and a discussion of further avenues of research. I wrote a report about my findings, which I can provide upon request.
-
-    ==== Spark - A platform for student society discovery
-
-    Lead Engineer in a team of 5, designed and implemented a NodeJS full-stack webapp for university students and societies using JIRA to aid Agile Development. Backend technologies include TypeScript, ExpressJS and Prisma ORM (sqlite). Frontend technologies include TypeScript, React and MUI. Presented as a MVP with an associated report (available upon request). Received a 97/100 overall mark and highest participation/contribution mark of 20/20. Source available on request.
-
-    == Interests
-    #columns(2)[
-    - Reading
-     - Recently, Distributed Systems (Maarten van Steen & Andrew S. Tanenbaum)
-    - Sports (Volleyball, Baseball, Skiing, Football)
-    - Teaching
-    - Strategy Games
-    - Meeting new people
-    - CTFs
-    - Reading security blog posts
-    - Attending security events such as SecTalks and BSides
-    ]
+    === FuzzyWuzzy - An in memory resetting binary fuzzer\
+    #link("https://github.com/GeorgeMuscat/fuzzywuzzy")\
+    This project was undertaken as a 4 person group for a university course. Our fuzzer was designed with modularity and speed as our main goals. Modularity allows a user to easily write new strategies for generating fuzzing inputs. Speed was achieved by creating a harness that hooks libc calls to provide coverage based mutations of inputs, as well as being able to reset the process being fuzzed without having to create new processes (reducing major overhead). This assignment received full marks.
   ],
 )
