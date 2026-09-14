@@ -62,7 +62,7 @@
     == Skills
 
     *Programming languages:* Python, Go, Rust, Bash, C, JS/TS, SQL\
-    *Technologies:* Kubernetes, Linux, WAF, Containerisation, Windows, Santa, JAMF, EDR, ZTNA, Azure, GCP\
+    *Technologies:* Kubernetes, Linux, WAF, Containerisation, Windows, Santa, JAMF, EDR, ZTNA, Terraform, Open Policy Agent, Azure, GCP\
     *Areas of interest:* Corporate security, Incident response, AppSec and secure SDLC implementation, Security automation and orchestration, Site security and reliability engineering, Reverse engineering and vulnerability research
 
     == Projects
