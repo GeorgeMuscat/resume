@@ -21,10 +21,10 @@
 
     == Experience
 
-    === Security Engineer \
+    === Senior Security Engineer \
     _Asontu_\
     #term[July 2024. --- Current][Sydney, AUS]\
-    Security Engineering Consultant
+    Senior Security Engineering Consultant
     - Pitched, prototyped, designed and developed automated testing and deployment infrastructure using Golang, Python, Kubernetes and Git. Introducing automation and reliability, *eliminating a manual and mistake prone process*.
     - Led *security architecture reviews for cloud-native applications*, providing tailored feedback for clients.
     - Performed multiple *penetration tests on web-applications*, providing detailed technical findings and clear remediation guidance.
